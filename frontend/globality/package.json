@@ -1,6 +1,7 @@
 {
   "name": "globality",
   "version": "0.1.0",
+  "proxy": "https://3001-samobrienolin-globality-ckk6cdow1hm.ws-eu106.gitpod.io",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",

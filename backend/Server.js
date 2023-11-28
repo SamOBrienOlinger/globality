@@ -1,8 +1,15 @@
 const express = require('express');
-const app = express()
+const cors = require('cors');
+const app = express();
 
-app.get("/api", (req, res) =>{
-    res.json({"User": "Sam is globality"})
-})
+app.use(cors());
 
-app.listen(3001, () => {console.log("Server started on port 3001")})
+app.get("/api", (req, res) => {
+    res.setHeader('Content-Type', 'application/json');
+    res.json({"User": "Sam is globality"});
+});
+
+app.listen(3001, () => {
+    console.log("Server started on port 3001");
+});
+
