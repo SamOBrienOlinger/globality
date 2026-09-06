@@ -16,7 +16,7 @@ A React and Express integration prototype developed alongside a country-informat
 
 ## Getting started
 
-Requires Node.js and npm. The frontend and backend are separate packages.
+Requires Git, Node.js and npm. The frontend and backend are separate packages.
 
 ```bash
 git clone https://github.com/SamOBrienOlinger/globality.git
